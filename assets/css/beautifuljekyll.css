@@ -3,6 +3,23 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+/* Mine */
+.tilted-up {
+  border: 4px dashed #45ff4b;
+    padding: 0.5rem;
+    border-radius: 18px;
+    text-align: center;
+    transform: skew(-15deg, -1deg);
+}
+
+.tilted-down {
+    border: 4px dashed #68b8f5;
+    padding: 0.5rem;
+    border-radius: 18px;
+    text-align: center;
+    transform: skew(15deg, 1deg);
+}
+
 
 /* --- General --- */
 
@@ -643,6 +660,7 @@ footer .footer-custom-content {
   background-size: cover;
   -o-background-size: cover;
   margin-top: 3.1875rem; /* The small navbar is 50px tall + 1px border */
+  margin-bottom:0px;
   /*margin-bottom: 2.1875rem;*/
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
