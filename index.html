@@ -1,5 +1,24 @@
 ---
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+layout: page
+title: Pool openings & maintenance
+subtitle: Reliable swimming pool service
+cover-img: "/assets/img/pool-header.jpg"
 ---
+
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+{%- capture site_tags -%}
+    {%- for tag in site.tags -%}
+        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+{%- endcapture -%}
+{%- assign tags_list = site_tags | split:',' | sort -%}
+
+<h2 id="booknow" class="tilted-up">Now booking Spring pool openings!</h2>
+<h3 class="tilted-down">Swimming pool openings starting at $329!</h3>
+<h4 style="padding: 0.5rem;text-align: center;">Swimming pool services for Waterloo, Kitchener, Cambridge, Guelph, and surrounding area.</h4>
+<div id="full-tags-list">
+    <iframe frameborder="0" style="height:980px;width:99%;border:none;" src='https://forms.zohopublic.com/moosepools/form/PoolService/formperma/hgxxAmQDtbzHFQZXRcpWtJNi8_UcIUza4OFSeuJ9VeE'></iframe>
+</div>
+
+<div></div>
