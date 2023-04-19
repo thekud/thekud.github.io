@@ -4,10 +4,12 @@ layout: base
 
 {% include header.html type="page" %}
 
-<div style="background: #ffd045;padding-top: 2rem;">
-  <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" style="background: white;" role="main">
+<div style="background: #ffd045;padding-top: 2rem;background-image: url(https://c8.alamy.com/comp/KTMB35/illustration-of-forest-background-KTMB35.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;">
+  <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" style="" role="main">
     <div class="row">
-      <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %} style="background: rgba(255,255,255,1);border-radius: 8px;">
         {% if page.before-content %}
           <div class="before-content">
             {% for file in page.before-content %}
