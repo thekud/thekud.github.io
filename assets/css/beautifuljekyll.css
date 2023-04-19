@@ -10,6 +10,7 @@ layout: null
     border-radius: 18px;
     text-align: center;
     transform: skew(-15deg, -1deg);
+    background: white;
 }
 
 .tilted-down {
@@ -18,6 +19,13 @@ layout: null
     border-radius: 18px;
     text-align: center;
     transform: skew(15deg, 1deg);
+    background: white;
+}
+
+.tilted-no-bg {
+    text-shadow: 1px 1px 3px #000;
+    text-align: center;
+    margin:1em; 
 }
 
 
