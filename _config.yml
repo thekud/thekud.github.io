@@ -13,14 +13,14 @@
 title: Moose Pools
 
 # Your name to show in the footer
-author: Some Person
+author: Built by Me
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  Book Now: "#booknow"
+  Pool Service Now: "#booknow"
   About Us: "#aboutus"
   Moose Quiz: "#moosequiz"
 
